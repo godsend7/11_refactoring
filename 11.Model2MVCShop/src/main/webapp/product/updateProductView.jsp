@@ -80,7 +80,7 @@
 				return;
 			}
 			
-			$("form").attr("method" , "POST").attr("action" , "/product/getProduct").submit();
+			$("form").attr("method" , "POST").attr("action" , "/product/updateProduct").submit();
 		}
 		
 		
@@ -129,6 +129,13 @@
 	    
 	    <!-- form Start /////////////////////////////////////-->
 		<form class="form-horizontal">
+		
+			<div class="form-group">
+			    <label for="prodNo" class="col-sm-offset-1 col-sm-3 control-label">상품번호</label>
+			    <div class="col-sm-4">
+			      <input type="text" class="form-control" id="prodNo" name="prodNo" value="${product.prodNo}" placeholder="Product Number" readonly>
+			    </div>
+		    </div>
 		
 			<div class="form-group">
 			    <label for="prodName" class="col-sm-offset-1 col-sm-3 control-label">상품명</label>

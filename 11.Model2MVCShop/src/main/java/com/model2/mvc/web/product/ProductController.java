@@ -134,7 +134,7 @@ public class ProductController {
 	
 	//@RequestMapping("/updateProduct.do")
 	@RequestMapping(value="updateProduct", method=RequestMethod.POST)
-	public String updateProduct( @ModelAttribute("product") Product product , Model model , 								 								 HttpSession session, HttpServletRequest request) throws Exception{
+	public String updateProduct( @ModelAttribute("product") Product product , Model model , HttpSession session, HttpServletRequest request) throws Exception{
 
 		System.out.println("/product/updateProduct : POST");
 		//Business Logic

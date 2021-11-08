@@ -45,6 +45,11 @@ public class Product {
 		return manuDate;
 	}
 	public void setManuDate(String manuDate) {
+		
+		if(manuDate != null) {
+			manuDate = manuDate.replace("-", "");
+			System.out.println("222222 " + manuDate);
+		}
 		this.manuDate = manuDate;
 	}
 	public int getPrice() {

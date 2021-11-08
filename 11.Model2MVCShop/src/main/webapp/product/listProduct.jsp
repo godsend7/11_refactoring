@@ -74,8 +74,8 @@
 			//==> DOM Object GET 3가지 방법 ==> 1. $(tagName) : 2.(#id) : 3.$(.className)
 			$( "td:nth-child(6) > i" ).on("click" , function() {
 				//alert($(this).find("input[id=prodNo2]").val());
-				
-				 self.location ="/product/getProduct?prodNo="+$(this).find("input[id=prodNo2]").val();
+				//alert("${param.menu}");
+				self.location ="/product/getProduct?prodNo="+$(this).find("input[id='prodNo2']").val();
 			});
 						
 			//==> userId LINK Event End User 에게 보일수 있도록 
@@ -118,7 +118,8 @@
 									//Debug...
 									//alert("JSONData : \n"+JSON.stringify(JSONData));
 									
-									var displayValue = "<h6>"
+									var displayValue =  "<input type='hidden' id='prodNo2' value='"+prodNo+"'/>"
+														+"<h6>"
 														+"<strong>상품번호</strong> : "+JSONData.prodNo+"<br/>"
 														+"<strong>상품명</strong> : "+JSONData.prodName+"<br/>"
 														+"<strong>상품이미지</strong> : "+JSONData.fileName+"<br/>"

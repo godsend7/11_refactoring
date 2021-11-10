@@ -75,7 +75,7 @@
 			$( "td:nth-child(6) > i" ).on("click" , function() {
 				//alert($(this).find("input[id=prodNo2]").val());
 				//alert("${param.menu}");
-				self.location ="/product/getProduct?prodNo="+$(this).find("input[id='prodNo2']").val();
+				self.location ="/product/getProduct?prodNo="+$(this).find("input[id='prodNo2']").val()+"&menu=${param.menu}";
 			});
 						
 			//==> userId LINK Event End User 에게 보일수 있도록 
@@ -158,7 +158,7 @@
 				<h3>상품관리수정</h3>
 			</c:if>
 			<c:if test="${param.menu == 'search'}">
-				<h3>상품목록조회</h3>
+				<h3><img src="/images/wow.gif" width="30px"><strong> 상품목록조회</strong></h3>
 			</c:if>
 	    </div>
 	    

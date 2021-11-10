@@ -86,7 +86,7 @@ public class ProductController {
 		
 		//Product vo = (Product)request.getAttribute("vo");
 		//System.out.println(vo + "getProduct");
-		
+		System.out.println("get menu :: " + request.getParameter("menu"));
 		int coooookie = Integer.parseInt(request.getParameter("prodNo"));
 		
 		Product vo = new Product();
@@ -152,7 +152,7 @@ public class ProductController {
 		}
 		
 		return "redirect:/product/getProduct?prodNo="+product.getProdNo()+
-				"&menu="+request.getParameter("menu");
+				"&menu=manage";
 	}
 	
 	

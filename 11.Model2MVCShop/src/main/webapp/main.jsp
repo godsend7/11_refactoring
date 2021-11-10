@@ -49,12 +49,12 @@
    	<div class="container ">
       <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron">
-        <h1 style="text-align:right;">Welcome to JongGak</h1><hr>
+        <h1 style="text-align:left;"><img src="/images/think.png" width="7%"><strong> Welcome to JongGak</strong></h1><hr>
         <p style="text-align:right;">
-        	J2SE, DBMS, JDBC, Servlet & JSP, Java Framework, HTML5, UI Framework 학습 후 Mini-Project 진행</br>
-        	본 교육은 총 6개월 과정입니다. 끝까지 버틸 수 있으면 한번 버텨보세요
-        </p></br>
-        <p><a class="btn btn-link btn-sm" href="https://www.bitcamp.co.kr/" target="_blank" role="button">Learn more &raquo;</a></p>
+        	해당 사이트에서는 비트캠프 수강생분들이 가진 모든 것들을 거래할 수 있습니다.</br>
+        	현재 급전이 필요하시다면 본인을 판매하시는 것을 추천합니다. 
+        </p>
+        <!-- <p><a class="btn btn-link btn-sm" href="https://www.bitcamp.co.kr/" target="_blank" role="button">Learn more &raquo;</a></p> -->
      </div>
     </div>
     
@@ -73,10 +73,10 @@
 		</div>
 		<div class="col-md-4" style="text-align:center;">
 			<h3>이달의 강사 <small>11월</small></h3>
-			<img class="img-circle" src="images/steve-jobs.jpg" alt="Generic placeholder image" width="140" height="140">
+			<img class="img-circle" src="images/steve-jobs.jpg" width="210" height="140">
           	<h2>스티브 잡스</h2>
           	<p><strong>출생</strong> | &nbsp;1955-02-24</br>
-          	<strong>선정이유</strong> | &nbsp;인기빨</p></br>
+          	<strong>담당과목</strong> | &nbsp;리듬체조</p></br>
           	<p style="text-align:center;"><a class="btn btn-default btn-sm" 
           	href="https://ko.wikipedia.org/wiki/%EC%8A%A4%ED%8B%B0%EB%B8%8C_%EC%9E%A1%EC%8A%A4" role="button" target="_blank">강사 프로필 &raquo;</a></p>
 		</div>
@@ -89,12 +89,12 @@
         <div class="col-md-5">
           <table class="table table-hover">
 		      <thead>
-		      <h3>⊙ 중도포기자 명단</h3>
+		      <h3>⊙ 조기취업자 명단</h3>
 		        <tr>
 		          <th>#</th>
 		          <th>이름</th>
 		          <th>거주지</th>
-		          <th>사유</th>
+		          <th>회사</th>
 		        </tr>
 		      </thead>
 		      <tbody>
@@ -102,19 +102,19 @@
 		          <th scope="row">1</th>
 		          <td>홍길동</td>
 		          <td>서울시 마포구</td>
-		          <td>피곤함</td>
+		          <td>서브웨이 종각점</td>
 		        </tr>
 		        <tr>
 		          <th scope="row">2</th>
 		          <td>일론 머스크</td>
 		          <td>경기도 화성시</td>
-		          <td>로또 1등</td>
+		          <td>올리브영 종각점</td>
 		        </tr>
 		        <tr class="active">
 		          <th scope="row">3</th>
 		          <td>빌 게이츠</td>
 		          <td>강원도 삼척시</td>
-		          <td>도망</td>
+		          <td>거구장</td>
 		        </tr>
 		      </tbody>
 		    </table>

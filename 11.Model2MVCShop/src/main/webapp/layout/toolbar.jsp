@@ -79,7 +79,7 @@
 	                         
 	                         <li><a href="#">최근본상품</a></li>
 	                         <li class="divider"></li>
-	                         <li><a href="#">etc..</a></li>
+	                         <li><a href="#"><img src="/images/ahha.png" width="70%"></a></li>
 	                     </ul>
 	                 </li>
 	                 

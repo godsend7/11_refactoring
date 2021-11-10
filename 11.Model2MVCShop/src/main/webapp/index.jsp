@@ -72,7 +72,9 @@
 		
         <div class="container">
         
-        	<a class="navbar-brand" href="#">비트캠프 종각점</a>
+        	<a class="navbar-brand" href="#">
+        		<strong>비트캠프 종각점</strong>
+        	</a>
 			
 			<!-- toolBar Button Start //////////////////////// -->
 			<div class="navbar-header">
@@ -104,6 +106,16 @@
 	
 			<!--  Menu 구성 Start /////////////////////////////////////-->     	
 			<div class="col-md-3">
+			
+				<a href="https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=0&ie=utf8&query=%EB%B9%84%ED%8A%B8%EC%BA%A0%ED%94%84"
+				class="thumbnail" target="_blank">
+	      			<img src="images/bitcamp.png" style="height:150px;">
+	    		</a>
+	    		
+	    		<div class="text-center">
+			  		<a class="btn btn-default btn btn-block" href="#" role="button" style="color: Navy;">회원가입</a>
+			  		<a class="btn btn-primary btn btn-block" href="#" role="button">로 그 인</a>
+			  	</div><br>
 		        
 		       	<!--  회원관리 목록에 제목 -->
 				<div class="panel panel-default">
@@ -152,6 +164,8 @@
 					</ul>
 				</div>
 				
+				<p style="text-align:center;">로그인 전에는 검색만 가능합니다!</p>
+				
 			</div>
 			<!--  Menu 구성 end /////////////////////////////////////-->   
 
@@ -159,18 +173,40 @@
 	 	 	<div class="col-md-9">
 				<div class="jumbotron" style="color: Navy;">
 			  		<h1 style="text-align:center;" class="text-success">비트캠프 종각점</h1><hr/><br/>
-			  		<div style="text-align : center;">
-			  			<img src="images/bitcamp.png" alt="..." class="img-circle">
-			  		</div><br/>
-			  		<p style="text-align:right;">로그인 후 사용가능...</p>
-			  		<p style="text-align:center;">로그인 전에는 검색만 가능합니다!</p>
-			  		<p>회원가입좀 하세요...</p><hr/><br/>
+			  		<!-- <div style="text-align : center;">
+			  			<img src="images/bitcamp.png" class="img-circle">
+			  		</div><br/> -->
 			  		
-			  		<div class="text-center">
-			  			<a class="btn btn-default btn-lg btn-block" href="#" role="button" style="color: Navy;">회원가입</a>
-			  			<a class="btn btn-primary btn-lg btn-block" href="#" role="button">로 그 인</a>
-			  		</div>
-			  	
+			  		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+						<ol class="carousel-indicators">
+							<li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+							<li data-target="#myCarousel" data-slide-to="2"></li>
+							<li data-target="#myCarousel" data-slide-to="3"></li>
+						</ol>
+						<div class="carousel-inner">
+							<div class="item active">
+								<img src="images/index-pic1.jpg">
+							</div>
+							<div class="item">
+								<img src="images/index-pic2.jpg">
+							</div>
+							<div class="item">
+								<img src="images/index-pic3.jpg">
+							</div>
+						</div>
+						<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left"></span>
+						</a>
+						<a class="right carousel-control" href="#myCarousel" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right"></span>
+						</a>
+					</div><br><br>
+			  		
+			  		<!-- <p style="text-align:right;">로그인 후 사용가능...</p> -->
+			  		<!-- <p style="text-align:center;">로그인 전에는 검색만 가능합니다!</p> -->
+			  		<hr/><br/>
+			  		<p style="font-size:15px;"><center>본 사이트는 비트캠프 종각점 수강생들을 위한 중고거래 플랫폼 입니다.</center></p>
+			  		
 			  	</div>
 	        </div>
 	   	 	<!--  Main end /////////////////////////////////////-->   		
@@ -178,8 +214,15 @@
 		</div>
 		<!-- 다단레이아웃  end /////////////////////////////////////-->
 		
-	</div>
+	</div><br><br><br><br><br>
 	<!--  화면구성 div end /////////////////////////////////////-->
+	
+	<!-- footer -->
+	<div class="jumbotron text-center" style="background-color:Dimgray; color:Darkgray;">
+	  <h5><strong>비트캠프 ｜ 서울 강남구 강남대로94길 20, 삼오빌딩(5층 ~ 9층)｜ 사업자등록번호 : 214-85-24928</strong></h5>
+		<h4 style="color:Lightgray">Copyright (c) 비트캠프 All rights reserved</h4>
+	</div>
+
 
 </body>
 

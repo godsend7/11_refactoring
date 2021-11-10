@@ -61,7 +61,7 @@
 				var menu = $("#menu").val();
 				//Debug..
 				//alert(  $( "td.ct_btn01:contains('목록')" ).html() );
-				//alert(${param.menu});
+				alert("${param.menu}");
 				self.location = "/product/listProduct?menu=${param.menu}";
 			});
 			
@@ -97,7 +97,9 @@
 			
 			<div class="row">
 	  			<div class="col-xs-4 col-md-2"><strong>상품이미지</strong></div>
-				<div class="col-xs-8 col-md-4">${product.fileName}</div>
+				<div class="col-xs-8 col-md-4">
+					<img src="/images/uploadFiles/${product.fileName}"/>
+				</div>
 			</div><hr/>
 			
 			<div class="row">
@@ -126,7 +128,7 @@
 		  			<button type="button" id="btn2" class="btn btn-link btn-sm">구매</button>
 		  			<button type="button" id="btn3" class="btn btn-link btn-sm">목록</button>
 		  		</div>
-			</div>
+			</div><br>
 			
 		</div>
  		<!--  화면구성 div End /////////////////////////////////////-->

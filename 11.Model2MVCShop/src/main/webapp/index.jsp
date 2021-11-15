@@ -35,6 +35,13 @@
    	
    	<!--  ///////////////////////// JavaScript ////////////////////////// -->
 	<script type="text/javascript">
+	
+		/* $( function() {
+			//==> 비로그인 사용자 알림
+			$("a[href='#' ]:contains('로 그 인')").on("click" , function() {
+				self.location = "/user/login"
+			});
+		}); */
 		
 		//============= 회원가입 화면이동 =============
 		$( function() {
@@ -58,7 +65,14 @@
 			$("a[href='#' ]:contains('상품검색')").on("click" , function() {
 				self.location = "/product/listProduct?menu=search"
 			});
-			
+		});
+		
+		//============= 상품검색 화면이동 =============
+		$( function() {
+			//==> 추가된부분 : "history"  Event 연결
+			$("a[href='#' ]:contains('최근본상품')").on("click" , function () {
+				window.open = "../history.jsp"
+			});
 		});
 		
 	</script>	

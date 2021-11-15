@@ -61,7 +61,7 @@
 				var menu = $("#menu").val();
 				//Debug..
 				//alert(  $( "td.ct_btn01:contains('목록')" ).html() );
-				alert("${param.menu}");
+				//alert("${param.menu}");
 				self.location = "/product/listProduct?menu=${param.menu}";
 			});
 			
@@ -114,7 +114,7 @@
 			
 			<div class="row">
 	  			<div class="col-xs-4 col-md-2"><strong>가격</strong></div>
-				<div class="col-xs-8 col-md-4">${product.price}</div>
+				<div class="col-xs-8 col-md-4">${product.price}원</div>
 			</div><hr/>
 			
 			<div class="row">

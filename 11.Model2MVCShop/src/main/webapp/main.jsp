@@ -29,10 +29,12 @@
 	
 	<!--  CSS 추가 : 툴바에 화면 가리는 현상 해결 :  주석처리 전, 후 확인-->
 	<style>
-        body {
-            padding-top : 70px;
+	  body {
+            padding-top : 60px;
+            background-image : url(../images/shine.gif);
+            background-size : cover;
         }
-   	</style>
+    </style>
    	
      <!--  ///////////////////////// JavaScript ////////////////////////// -->
 	 	
@@ -46,7 +48,8 @@
    	<!-- ToolBar End /////////////////////////////////////-->
 
 	<!--  아래의 내용은 http://getbootstrap.com/getting-started/  참조 -->	
-   	<div class="container ">
+	<div class="container"  style="background-color:white;">
+   	<div class="row">
       <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron">
         <h1 style="text-align:left;"><img src="/images/think.png" width="7%"><strong> Welcome to JongGak</strong></h1><hr>
@@ -58,7 +61,7 @@
      </div>
     </div>
     
-    <div class="container">
+    <!-- <div class="container"> -->
 		<div class="row">
         <div class="col-md-8">
       	<h3>소개 영상 <small>비트캠프 LA점</small></h3>
@@ -81,9 +84,9 @@
           	href="https://ko.wikipedia.org/wiki/%EC%8A%A4%ED%8B%B0%EB%B8%8C_%EC%9E%A1%EC%8A%A4" role="button" target="_blank">강사 프로필 &raquo;</a></p>
 		</div>
 		</div>
-	</div></br></br></br>
+	<!-- </div> --></br></br></br>
     
-    <div class="container">
+    <!-- <div class="container"> -->
       <!-- Example row of columns -->
       <div class="row">
         <div class="col-md-5">
@@ -128,7 +131,7 @@
        </div>
       </div></br></br></br>
       </div>
-      
+      <!-- </div> -->
 
 	<!-- 참조 : http://getbootstrap.com/css/   : container part..... -->
 	<!-- <div class="container">

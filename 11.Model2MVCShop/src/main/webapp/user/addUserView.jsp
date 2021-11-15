@@ -162,7 +162,7 @@
 	<!-- ToolBar Start /////////////////////////////////////-->
 	<div class="navbar navbar-inverse navbar-default">
         <div class="container">
-        	<a class="navbar-brand" href="/index.jsp">종각점</a>
+        	<a class="navbar-brand" href="/index.jsp"><strong>비트캠프 종각점</strong></a>
    		</div>
    	</div>
    	<!-- ToolBar End /////////////////////////////////////-->
@@ -170,7 +170,7 @@
 	<!--  화면구성 div Start /////////////////////////////////////-->
 	<div class="container">
 	
-		<h3 class="bg-danger text-center" style="color:Maroon;">회 원 가 입</h3><hr>
+		<h3 class="bg-danger text-center" style="color:Maroon;"><strong>회 원 가 입</strong></h3><hr>
 
 		<!-- form Start /////////////////////////////////////-->
 		<form class="form-horizontal">

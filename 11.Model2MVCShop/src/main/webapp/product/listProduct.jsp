@@ -36,7 +36,10 @@
 	<!--  ///////////////////////// CSS ////////////////////////// -->
 	<style>
 	  body {
-            padding-top : 50px;
+            padding-top : 100px;
+            background-image : url(../images/chic_store.jpg);
+            background-size : cover;
+            
         }
     </style>
 
@@ -151,7 +154,7 @@
    	<!-- ToolBar End ///////////////////////////////////////-->
 
 	<!--  화면구성 div Start /////////////////////////////////////-->
-	<div class="container">
+	<div class="container" style="background-color:Whitesmoke;">
 	
 		<div class="page-header text-info">
 			<c:if test="${param.menu == 'manage'}">

@@ -51,6 +51,12 @@
 					return;
 				}
 				
+				/* if(pw != $(${user.password})) {
+					alert('가입된 정보가 없거나 비밀번호가 잘못되었습니다.');
+					$("#password").focus();
+					return;
+				} */
+				
 				$("form").attr("method","POST").attr("action","/user/login").attr("target","_parent").submit();
 			});
 		});	
@@ -73,7 +79,7 @@
 	<!-- ToolBar Start /////////////////////////////////////-->
 	<div class="navbar navbar-inverse navbar-default">
         <div class="container">
-        	<a class="navbar-brand" href="/index.jsp">종각점</a>
+        	<a class="navbar-brand" href="/index.jsp"><strong>비트캠프 종각점</strong></a>
    		</div>
    	</div>
    	<!-- ToolBar End /////////////////////////////////////-->	
@@ -113,7 +119,7 @@
 					  <div class="form-group">
 					    <div class="col-sm-offset-4 col-sm-6 text-center">
 					      <button type="button" class="btn btn-default" >로 &nbsp;그 &nbsp;인 </button>
-					      <a class="btn btn-primary btn" href="#" role="button">회 &nbsp;원 &nbsp;가 &nbsp;입</a>
+					      <a class="btn btn-primary" href="#" role="button">회 &nbsp;원 &nbsp;가 &nbsp;입</a>
 					    </div>
 					  </div>
 			

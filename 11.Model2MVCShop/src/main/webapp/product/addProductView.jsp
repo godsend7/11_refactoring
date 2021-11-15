@@ -153,7 +153,7 @@
 	<!-- ToolBar Start /////////////////////////////////////-->
 	<div class="navbar navbar-inverse navbar-default">
         <div class="container">
-        	<a class="navbar-brand" href="/index.jsp">비트캠프 종각점</a>
+        	<a class="navbar-brand" href="/index.jsp"><strong>비트캠프 종각점</strong></a>
         	
 	        <ul class="nav navbar-nav navbar-right">
 	        	<li><a href="#" id="button2">상품관리</a></li>
@@ -165,7 +165,7 @@
    	
    	<!--  화면구성 div Start ///////////////////////////////////// -->
 	<div class="container">
-		<h3 class="bg-success text-center" style="color:green;">상 품 등 록</h3><hr>
+		<h3 class="bg-success text-center" style="color:green;"><strong>상 품 등 록</strong></h3><hr>
 		
 		<!-- form Start ///////////////////////////////////// -->
 		<form class="form-horizontal">

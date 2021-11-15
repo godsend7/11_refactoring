@@ -10,7 +10,7 @@
 	
 	<div class="container">
 	       
-		<a class="navbar-brand" href="/index.jsp" style="color:Gainsboro;">비트캠프 종각점</a>
+		<a class="navbar-brand" href="/index.jsp" style="color:Gainsboro;"><strong>비트캠프 종각점</strong></a>
 		
 		<!-- toolBar Button Start //////////////////////// -->
 		<div class="navbar-header">
@@ -146,10 +146,22 @@
 			}); 
 		 });
 	 	
-		//=============  최근본상품 Event  처리 =============	
+		/* //=============  최근본상품 Event  처리 =============	
 		 $( "a:contains('최근본상품')" ).on("click" , function() {
 		 	//==> DOM Object GET 3가지 방법 ==> 1. $(tagName) : 2.(#id) : 3.$(.className)
 			$(self.location).attr("href","../history.jsp");
-		});
+		}); */
+		
+		//=============  최근본상품 Event  처리 =============
+		 $(function() {
+			//==> DOM Object GET 3가지 방법 ==> 1. $(tagName) : 2.(#id) : 3.$(.className)
+			 $("a:contains('최근본상품')").on("click" , function() {
+				popWin 
+				= window.open("../history.jsp",
+								"popWin", 
+								"left=300,top=200,width=450,height=450,marginwidth=0,marginheight=0,"+
+								"scrollbars=no,scrolling=no,menubar=no,resizable=no");
+			});
+		});	
 		
 	</script>  

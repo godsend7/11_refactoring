@@ -67,13 +67,17 @@
 			});
 		});
 		
-		//============= 상품검색 화면이동 =============
-		$( function() {
-			//==> 추가된부분 : "history"  Event 연결
-			$("a[href='#' ]:contains('최근본상품')").on("click" , function () {
-				window.open = "../history.jsp"
+		//=============  최근본상품 Event  처리 =============
+		 $(function() {
+			//==> DOM Object GET 3가지 방법 ==> 1. $(tagName) : 2.(#id) : 3.$(.className)
+			 $("a:contains('최근본상품')").on("click" , function() {
+				popWin 
+				= window.open("../history.jsp",
+								"popWin", 
+								"left=300,top=200,width=450,height=450,marginwidth=0,marginheight=0,"+
+								"scrollbars=no,scrolling=no,menubar=no,resizable=no");
 			});
-		});
+		});	
 		
 	</script>	
 	
@@ -127,8 +131,8 @@
 	    		</a>
 	    		
 	    		<div class="text-center">
-			  		<a class="btn btn-default btn btn-block" href="#" role="button" style="color: Navy;">회원가입</a>
-			  		<a class="btn btn-primary btn btn-block" href="#" role="button">로 그 인</a>
+			  		<a class="btn btn-default btn btn-block" href="#" role="button" style="color: Navy;"><strong>회원가입</strong></a>
+			  		<a class="btn btn-primary btn btn-block" href="#" role="button"><strong>로 그 인</strong></a>
 			  	</div><br>
 		        
 		       	<!--  회원관리 목록에 제목 -->
@@ -186,7 +190,7 @@
 	 	 	<!--  Main start /////////////////////////////////////-->   		
 	 	 	<div class="col-md-9">
 				<div class="jumbotron" style="color: Navy;">
-			  		<h1 style="text-align:center;" class="text-success">비트캠프 종각점</h1><hr/><br/>
+			  		<h1 style="text-align:center;" class="text-success"><strong>비트캠프 종각점</strong></h1><hr/><br/>
 			  		<!-- <div style="text-align : center;">
 			  			<img src="images/bitcamp.png" class="img-circle">
 			  		</div><br/> -->

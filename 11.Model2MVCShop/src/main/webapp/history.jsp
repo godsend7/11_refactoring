@@ -7,9 +7,16 @@
 
 <title>열어본 상품 보기</title>
 
+	<style>
+	  body {
+            background-image : url(../images/code.gif);
+            background-size : cover;
+        }
+    </style>
+
 </head>
-<body>
-	당신이 열어본 상품을 알고 있다
+<body style="color:green; text-align:center;">
+	<strong>* I know the product you opened *</strong><hr>
 <br>
 <br>
 <%

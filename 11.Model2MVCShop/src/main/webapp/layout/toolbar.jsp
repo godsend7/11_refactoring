@@ -24,7 +24,7 @@
 		<!-- toolBar Button End //////////////////////// -->
 		
 	    <!--  dropdown hover Start -->
-		<div 	class="collapse navbar-collapse" id="target" 
+		<div class="collapse navbar-collapse" id="target"
 	       			data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
 	         
 	         	<!-- Tool Bar 를 다양하게 사용하면.... -->
@@ -33,18 +33,18 @@
 	              <!--  회원관리 DrowDown -->
 	              <li class="dropdown">
 	                     <a  href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-	                         <span >회원관리</span>
+	                         <span>회원관리</span>
 	                         <span class="caret"></span>
 	                     </a>
-	                     <ul class="dropdown-menu">
-	                         <li><a href="#">개인정보조회</a></li>
+	                     <ul class="dropdown-menu" style="background-color:black;">
+	                         <li><a href="#" style="color:green;"><strong>개인정보조회</strong></a></li>
 	                         
 	                         <c:if test="${sessionScope.user.role == 'admin'}">
-	                         	<li><a href="#">회원정보조회</a></li>
+	                         	<li><a href="#" style="color:green;">회원정보조회</a></li>
 	                         </c:if>
 	                         
 	                         <li class="divider"></li>
-	                         <li><a href="#">etc...</a></li>
+	                         <li><a href="#"><img src="/images/follow.gif" width="70%"></a></li>
 	                     </ul>
 	                 </li>
 	                 
@@ -52,14 +52,14 @@
 	               <c:if test="${sessionScope.user.role == 'admin'}">
 		              <li class="dropdown">
 		                     <a  href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-		                         <span >판매상품관리</span>
+		                         <span>판매상품관리</span>
 		                         <span class="caret"></span>
 		                     </a>
-		                     <ul class="dropdown-menu">
-		                         <li><a href="#">판매상품등록</a></li>
-		                         <li><a href="#">판매상품관리</a></li>
+		                     <ul class="dropdown-menu" style="background-color:black;">
+		                         <li><a href="#" style="color:green;"><strong>판매상품등록</strong></a></li>
+		                         <li><a href="#" style="color:green;">판매상품관리</a></li>
 		                         <li class="divider"></li>
-		                         <li><a href="#">etc..</a></li>
+		                         <li><a href="#"><img src="/images/uploadFiles/ohh.jpg" width="70%"></a></li>
 		                     </ul>
 		                </li>
 	                 </c:if>
@@ -70,20 +70,20 @@
 	                         <span >상품구매</span>
 	                         <span class="caret"></span>
 	                     </a>
-	                     <ul class="dropdown-menu">
-	                         <li><a href="#">상 품 검 색</a></li>
+	                     <ul class="dropdown-menu" style="background-color:black;">
+	                         <li><a href="#" style="color:green;"><strong>상 품 검 색</strong></a></li>
 	                         
 	                         <c:if test="${sessionScope.user.role == 'user'}">
-	                           <li><a href="#">구매이력조회</a></li>
+	                           <li><a href="#" style="color:green;">구매이력조회</a></li>
 	                         </c:if>
 	                         
-	                         <li><a href="#">최근본상품</a></li>
+	                         <li><a href="#" style="color:green;">최근본상품</a></li>
 	                         <li class="divider"></li>
 	                         <li><a href="#"><img src="/images/ahha.png" width="70%"></a></li>
 	                     </ul>
 	                 </li>
 	                 
-	                 <li><a href="#">etc...</a></li>
+	                 <li><a href="http://naver.me/Fyex2mTz" target="_blank">etc...</a></li>
 	             </ul>
 	             
 	             <ul class="nav navbar-nav navbar-right">

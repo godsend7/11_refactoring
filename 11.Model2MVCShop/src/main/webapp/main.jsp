@@ -30,7 +30,7 @@
 	<!--  CSS 추가 : 툴바에 화면 가리는 현상 해결 :  주석처리 전, 후 확인-->
 	<style>
 	  body {
-            padding-top : 60px;
+            padding-top : 80px;
             background-image : url(../images/shine.gif);
             background-size : cover;
         }
@@ -111,13 +111,19 @@
 		          <th scope="row">2</th>
 		          <td>일론 머스크</td>
 		          <td>경기도 화성시</td>
-		          <td>올리브영 종각점</td>
+		          <td>코다차야</td>
 		        </tr>
 		        <tr class="active">
 		          <th scope="row">3</th>
 		          <td>빌 게이츠</td>
 		          <td>강원도 삼척시</td>
 		          <td>거구장</td>
+		        </tr>
+		        <tr>
+		          <th scope="row">4</th>
+		          <td>지드래곤</td>
+		          <td>충청남도 계룡시</td>
+		          <td>얌샘 김밥</td>
 		        </tr>
 		      </tbody>
 		    </table>

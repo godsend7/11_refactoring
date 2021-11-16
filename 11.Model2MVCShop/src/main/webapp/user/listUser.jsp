@@ -39,7 +39,10 @@
 	<!--  ///////////////////////// CSS ////////////////////////// -->
 	<style>
 	  body {
-            padding-top : 50px;
+            padding-top : 100px;
+            background-image : url(../images/users.jpg);
+            background-size : cover;
+            
         }
     </style>
     
@@ -131,10 +134,10 @@
    	<!-- ToolBar End /////////////////////////////////////-->
 	
 	<!--  화면구성 div Start /////////////////////////////////////-->
-	<div class="container">
+	<div class="container" style="background-color:Whitesmoke;">
 	
 		<div class="page-header text-info">
-	       <h3>회원목록조회</h3>
+	       <h3><img src="/images/pikachu.gif" width="70px"><strong>회원목록조회</strong></h3>
 	    </div>
 	    
 	    <!-- table 위쪽 검색 Start /////////////////////////////////////-->

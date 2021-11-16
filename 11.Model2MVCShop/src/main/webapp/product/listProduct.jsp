@@ -158,7 +158,7 @@
 	
 		<div class="page-header text-info">
 			<c:if test="${param.menu == 'manage'}">
-				<h3>상품관리수정</h3>
+				<h3><img src="/images/timer.gif" width="30px"><strong> 상품관리수정</strong></h3>
 			</c:if>
 			<c:if test="${param.menu == 'search'}">
 				<h3><img src="/images/wow.gif" width="30px"><strong> 상품목록조회</strong></h3>

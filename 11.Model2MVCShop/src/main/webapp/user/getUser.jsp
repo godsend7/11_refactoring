@@ -28,7 +28,9 @@
 	<!--  ///////////////////////// CSS ////////////////////////// -->
 	<style>
  		body {
-            padding-top : 50px;
+            padding-top : 100px;
+            background-image : url(../images/id.jpg);
+            background-size : cover;
         }
      </style>
     
@@ -54,10 +56,10 @@
    	<!-- ToolBar End /////////////////////////////////////-->
 	
 	<!--  화면구성 div Start /////////////////////////////////////-->
-	<div class="container">
+	<div class="container" style="background-color:Whitesmoke;">
 	
 		<div class="page-header">
-	       <h3 class=" text-info">회원정보조회</h3>
+	       <h3 class=" text-info"><strong>회원정보조회</strong></h3>
 	       <h5 class="text-muted">내 정보를 <strong class="text-danger">최신정보로 관리</strong>해 주세요.</h5>
 	    </div>
 	
